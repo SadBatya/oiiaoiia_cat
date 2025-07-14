@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.player {
+  width: 100vw;
+  height: 100dvh;
+  object-fit: cover;
+}
+
+.button_player {
+  padding: 30px 60px;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  background-color: orange;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  position: absolute;
+}
+
+.button_player:hover {
+  transform: scale(1.05);
+}
